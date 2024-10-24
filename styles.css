@@ -3,50 +3,40 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-}
-
-header {
-    background-color: #444444; 
-    text-align: center;
-    color: rgb(255, 176, 29);
-    font-size: 1.5rem;
-}
-
-main {
-    flex: 1;
-    padding: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
 }
 
-nav li {
-    display: inline-block;
-}
-
-nav li a {
-    display: block;
-    color: white;
+div.cover {
+    justify-content: center;
+    padding-top: 1em;
+    color: #ff9900;
+    font-size: 1.5em;
+    font-weight: bold;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: background-color 0.2s;
 }
 
-nav li a:hover {
-    background-color: #9c871f;
+div.info {
+    color: #ffab2d;
+    font-size: 0.85em;
 }
 
-footer {
-    background-color: #3b3b3b; 
-    color: rgb(255, 176, 29);
-    text-align: center; 
-    padding: 10px; 
-    font-size: 1.2rem;
+div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+div.footer {
+    color: #ffab2d;
+    font-size: 0.65em;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
 }
